@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  min-width: 100%;
+  background-color: #101010;
+  scroll-behavior: smooth;
+}
+
+/* dark theme override (toggle .dark on <html>)
+.dark {
+  --color-primary: #38bdf8;
+  --color-secondary: #0b1220;
+} */
+
+@theme {
+  --font-overpass: "Overpass", sans-serif;
+  --font-source-code-pro: "SourceCodePro", monospace;
+  --color-primary: #242424; /* primary */
+  --color-primary-600: #181818;
+  --color-primary-300: #3d3d3d;
+  --color-accentText: #e09037;
+  --color-secondary: #101010; /* background/text */
+  --color-accent: #040c72;
+}
