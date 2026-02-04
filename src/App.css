@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 :root {
-  min-width: 100%;
+  min-width: fit-content;
   background-color: #101010;
   scroll-behavior: smooth;
 }

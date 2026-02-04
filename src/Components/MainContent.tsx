@@ -1,5 +1,6 @@
 import { orderedComponents } from "./Categories/In-game";
 import { orderedComponents2 } from "./Categories/Out-of-game";
+import Footer from "./Footer";
 
 const MainContent = () => {
   return (
@@ -53,6 +54,7 @@ const MainContent = () => {
           </b>
         </p>
         <img src={"/images/peon.jpg"} className="p-30" alt="img1" />
+        <Footer />
       </div>
     </>
   );
